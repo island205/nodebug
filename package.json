@@ -1,0 +1,13 @@
+{
+    "name": "nodebug",
+    "version": "0.0.1",
+    "description": "node debug shortcut",
+    "author": "ZhiCun <island205@gmail.com>",
+    "keywords": ["debug","node"],
+    "engines" : { "node": ">=0.3.0" },
+    "bin" : { "nodebug" : "./bin/nodebug.js" },
+    "dependencies": {
+      "node-inspector": "*"
+    }
+}
+
